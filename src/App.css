@@ -1,9 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
 * {
   box-sizing: border-box;
+  font-family: "Teko", sans-serif;
 }
 
 .App {
   width: 100vw;
-  height: fit-content;
-  border: 1px solid red;
 }

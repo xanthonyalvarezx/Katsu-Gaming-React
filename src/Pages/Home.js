@@ -1,4 +1,3 @@
-import homeComponent from "../components/Home";
 import "../stylesheets/Home.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -16,8 +15,18 @@ const Home = () => {
   return (
     <>
       <main>
-        <homeComponent />
+        <div id="backgroundDiv"></div>
+        <h2 id="bannerTabText">Bridging the gap between fans and members!</h2>
+        <div id="homeBanner">
+          <h3 id="homeBannerText">Our Mission</h3>
+          <p>
+            We made Katsu Gaming on a whim but our desire to improve the state of esports by making an organization and
+            creating a brand that people can not only show off but be able to represent and become a part of is pushing
+            us to make it official.
+          </p>
+        </div>
       </main>
+
       <footer>
         <a href="https://www.facebook.com/katsugg" target="_blank">
           <FontAwesomeIcon className="footerIcon" icon={faFacebookSquare} />

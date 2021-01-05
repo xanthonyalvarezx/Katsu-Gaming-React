@@ -9,14 +9,16 @@
   justify-content: flex-start;
   align-items: center;
   margin-left: -40px;
+  margin-top: -2px;
   width: fit-content;
   text-transform: uppercase;
-  border: 1px solig green;
 }
 .navItem {
   padding-right: 10px;
+  color: grey;
 }
 
 .navIcon {
   color: grey;
+  margin-right: 2px;
 }
