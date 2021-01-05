@@ -4,6 +4,7 @@
 
 main {
   background-image: url("../images/katsujoinup.jpg");
+
   background-size: 100vw 100vw;
   background-repeat: no-repeat;
 
@@ -14,11 +15,21 @@ main {
 }
 
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: black;
   width: 100vw;
   height: 100px;
 
   margin-left: -8px;
   margin-bottom: -8px;
-  margin-top: -20px;
+  margin-top: -10px;
+}
+
+.footerIcon {
+  color: azure;
+
+  font-size: 25px;
+  margin-left: 10px;
 }
