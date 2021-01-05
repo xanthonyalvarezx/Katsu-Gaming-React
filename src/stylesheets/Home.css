@@ -4,11 +4,21 @@
 
 main {
   background-image: url("../images/katsujoinup.jpg");
-  background-size: 100vw;
+  background-size: 100vw 100vw;
   background-repeat: no-repeat;
 
   height: 100vw;
   width: 100vw;
   margin-left: -8px;
   margin-top: -8px;
+}
+
+footer {
+  background-color: black;
+  width: 100vw;
+  height: 100px;
+
+  margin-left: -8px;
+  margin-bottom: -8px;
+  margin-top: -20px;
 }

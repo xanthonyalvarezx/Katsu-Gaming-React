@@ -11,6 +11,7 @@
   margin-left: -40px;
   width: fit-content;
   text-transform: uppercase;
+  border: 1px solig green;
 }
 .navItem {
   padding-right: 10px;
