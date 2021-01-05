@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.linkList {
+  display: flex;
+  position: fixed;
+  list-style-type: none;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -40px;
+  width: fit-content;
+  text-transform: uppercase;
+}
+.navItem {
+  padding-right: 10px;
+}
+
+.navIcon {
+  color: grey;
+}
