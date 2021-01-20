@@ -5,7 +5,7 @@
 #backgroundDiv {
   background-image: url("../images/katsujoinup.jpg");
 
-  background-size: 100vw 99vw;
+  background-size: 100vw 75vw;
   background-repeat: no-repeat;
 
   height: 100vw;
@@ -15,17 +15,27 @@
 }
 
 #homeBanner {
-  display: block;
-  border: 1px solid red;
-  margin-left: -8px;
+  display: flex;
+  flex-direction: column;
+  
+  margin-left: 25vw;
   margin-top: -10px;
+  margin-bottom: 20px;
   justify-content: center;
   align-content: center;
+  width: 550px;
 }
 #homeBannerText {
   display: flex;
   justify-content: center;
-  border: 1px solid blue;
+ 
+  
+}
+#bannerTabText{
+  display: flex;
+  margin-top: -275px;
+  justify-content: center;
+  
 }
 
 footer {
