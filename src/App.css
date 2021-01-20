@@ -5,7 +5,9 @@
 }
 
 .App {
-  width: 100vw;
+  
+  margin-right: -5px;
+  
 }
 
 footer {
@@ -19,6 +21,8 @@ footer {
   margin-left: -8px;
   margin-bottom: -8px;
   margin-top: -10px;
+  
+ 
 }
 
 .footerIcon {

@@ -1,0 +1,38 @@
+ *{
+     box-sizing: border-box;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/katsu-2.jpeg);
+    background-repeat: no-repeat;
+    background-size:100vw 75vw ;
+    
+    margin-bottom: 210px;
+    height: 75vw;
+    width: 100vw;
+    margin: -8px;
+}
+#aboutBannerText{
+    display: flex;
+    justify-content: center;
+   
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 100vw;
+    margin-top: -100px;
+}
+
+#missionStatement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    width:100vw;
+    padding: 5px;
+    
+    font-size: 30px;
+}
+
