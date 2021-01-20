@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+#contactDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images//katsu-3.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vw;
+    height: 100vw;
+    
+    margin: -8px;
+    margin-bottom: 10px;
+}
+#contactInfoDiv{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100vw;
+    background-color:  rgba(255, 255, 255, 0.4);
+}
+.contactIcon{
+    margin-left: 10px;
+    margin-right: 5px;
+    
+}

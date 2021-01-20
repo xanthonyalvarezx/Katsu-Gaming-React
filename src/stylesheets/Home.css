@@ -12,7 +12,7 @@ background-color: black;
   width: 100vw;
   margin-left: -8px;
   margin-top: -8px;
-  margin-bottom: 110px;
+  margin-bottom: 300px;
 }
 
 
@@ -23,13 +23,16 @@ background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -260px;
-  margin-bottom: 50px;
+  margin-top: -710px;
+  margin-bottom: 110px;
   margin-left: -8px;
   
   background-color:  rgba(255, 255, 255, 0.4);
   height: 100px;
   
+}
+footer{
+  height: 200px;
 }
 
 

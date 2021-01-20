@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --shadow:10px 10px 10px 10px  rgba(0, 0, 0, 0.483);
+}
+
+#twitterFeed{
+    display: flex;
+    box-shadow: var(box-shadow);
+    width: fit-content;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    box-shadow: var(--shadow);
+
+}
+#youtube{
+    margin-top: 300px;
+    margin-bottom: 50px;
+    box-shadow: var(--shadow);
+    height: 200px;
+    width: fit-content;
+}
+#twitchFeed{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: var(--shadow);
+    
+
+}
+#Podcast{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    
+
+}
+
+#socialStreams{
+   
+    display: flex;
+    
+    justify-content: center;
+   
+    margin: -8px;
+    background-image: url('../images/katsu-4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 35vw;
+    background-color: rgba(000, 000, 000, 0.3);
+}

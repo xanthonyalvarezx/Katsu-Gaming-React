@@ -1,7 +1,7 @@
 import "./App.css";
-import Content from "./components/Content";
+import Content from "./Pages/Content";
 import Nav from "./components/Nav";
-import Contact from "./components/Contact";
+import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Home from "./Pages/Home";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -35,8 +35,8 @@ function App() {
             <Route path="/Contact">
               <Contact />
             </Route>
-            <Route path="/About">
-              <About />
+            <Route path="/Content">
+              <Content />
             </Route>
           </Switch>
         </nav>
