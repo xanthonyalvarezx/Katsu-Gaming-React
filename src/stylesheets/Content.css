@@ -13,7 +13,11 @@
     margin-left: 50px;
     margin-bottom: 50px;
     box-shadow: var(--shadow);
+    
 
+}
+.twitter-embed{
+    margin-bottom: -8px;
 }
 #youtube{
     margin-top: 300px;
